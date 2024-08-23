@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your list here</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- daisy ui & tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/da254d5cee.js" crossorigin="anonymous"></script>
+
+    <style>
+        .manrope-font{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'color-primary': 'rgb(171, 239, 95)',
+              },
+              backgroundImage: {
+                'bannerBg': "url('./images/bg.jpg')",
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="manrope-font">
+  <main class="bg-bannerBg bg-no-repeat bg-cover bg-center pt-20 w-full">
+   <div class="w-11/12 mx-auto">
+    <h4 class="md:text-4xl text-xl font-extrabold text-center">Select which best describes you:</h4>
+
+   </div>
+    <div class=" mt-10 grid grid-cols-1 md:grid-cols-2 gap-6  md:w-8/12 md:mx-auto pb-20">
+        <!-- card 1 -->
+        <div class="card bg-base-100 image-full w-96 shadow-xl">
+            <figure>
+              <img class="w-full"
+                src="./images/article1.png"
+                alt="apart1" />
+            </figure>
+            <div class="card-body">
+              <p class="text-xl font-extrabold">I'm an individual property owner</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+            </div>
+          </div>
+       <!-- card 2 -->
+       <div class="card bg-base-100 image-full w-96 shadow-xl">
+        <figure>
+          <img class="w-full"
+            src="./images/article2.png"
+            alt="apart1" />
+        </figure>
+        <div class="card-body">
+          <p class="text-xl font-extrabold">I own or manage apartments with
+            fewer than 50 units</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="card bg-base-100 image-full w-96 shadow-xl">
+        <figure>
+          <img class="w-full"
+            src="./images/article2.png"
+            alt="apart1" />
+        </figure>
+        <div class="card-body">
+          <p class="text-xl font-extrabold">I'm an agent or broker</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+      <!-- card - 4 -->
+      <div class="card bg-base-100 image-full w-96 shadow-xl">
+        <figure>
+          <img class="w-full"
+            src="./images/article1.png"
+            alt="apart1" />
+        </figure>
+        <div class="card-body">
+          <p class="text-xl font-extrabold">I own or manage apartments with
+            more than 50 units</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

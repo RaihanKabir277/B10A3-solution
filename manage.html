@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Managing</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- daisy ui & tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/da254d5cee.js" crossorigin="anonymous"></script>
+
+    <style>
+        .manrope-font{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'color-primary': 'rgb(171, 239, 95)',
+              },
+              backgroundImage: {
+                'bannerBg': "url('./images/bg.jpg')",
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="manrope-font bg-green-50 py-16">
+    <div class="w-11/12 mx-auto">
+        <h4 class="md:text-4xl text-xl font-extrabold text-center">List. Manage. Earn. It's really that simple.</h4>
+        <p class="opacity-80 font-semibold max-w-screen-sm text-center mx-auto">Whether you want to get more eyes on your listing, organize maintenance requests, or collect rent all in one place, we can help! </p>
+    </div>
+    <div class="w-11/12 mx-auto grid md:grid-cols-3 grid-cols-1 gap-5 mt-10">
+        <!-- card 1 -->
+     <div class="space-y-3 flex flex-col justify-center items-center border bg-white rounded-lg p-10 shadow-2xl">
+        <img class="" src="./images/commercial.png" alt="">
+        <p class="text-xl font-extrabold text-center">Showcase your property to millions of renters</p>
+        <a href="" class="font-bold text-blue-500">Learn more</a>
+     </div>
+     <!-- card -2 -->
+     <div class="space-y-3 flex flex-col justify-center items-center border bg-white rounded-lg p-10 shadow-2xl">
+        <img class="" src="./images/vision.png" alt="">
+        <p class="text-xl font-extrabold text-center">Collect rent entirely online for free</p>
+        <a href="" class="font-bold text-blue-500">Learn more</a>
+     </div>
+     <!-- card -3 -->
+     <div class="space-y-3 flex flex-col justify-center items-center border bg-white rounded-lg p-10 shadow-2xl">
+        <img class="" src="./images/concept.png" alt="">
+        <p class="text-xl font-extrabold text-center">Create leases online in minitues</p>
+        <a href="" class="font-bold text-blue-500">Learn more</a>
+     </div>
+     <!-- card - 4 -->
+     <div class="space-y-3 flex flex-col justify-center items-center border bg-white rounded-lg p-10 shadow-2xl">
+        <img class="" src="./images/flow-chart.png" alt="">
+        <p class="text-xl font-extrabold text-center">Screen applicants all in one place</p>
+        <a href="" class="font-bold text-blue-500">Learn more</a>
+     </div>
+     <!-- card - 5 -->
+     <div class="space-y-3 flex flex-col justify-center items-center border bg-white rounded-lg p-10 shadow-2xl">
+        <img class="" src="./images/Vector.png" alt="">
+        <p class="text-xl font-extrabold text-center">streamline rental maintenance</p>
+        <a href="" class="font-bold text-blue-500">Learn more</a>
+     </div>
+     <!-- card -6 -->
+     <div class="space-y-3 flex flex-col justify-center items-center border bg-white rounded-lg p-10 shadow-2xl">
+        <img class="" src="./images/budget-planning.png" alt="">
+        <p class="text-xl font-extrabold text-center">Make rental expense tracking a breeze</p>
+        <a href="" class="font-bold text-blue-500">Learn more</a>
+     </div>
+    </div>
+</body>
+</html>
