@@ -33,6 +33,9 @@
                 'color-fifth': 'rgb(164, 218, 195)',
                 'color-sixth': 'rgb(119, 170, 234)',
                 'color-seven': 'rgba(171, 239, 95, 0.2)',
+              },
+              backgroundImage: {
+                'bannerBg': "url('./images/bg.jpg')",
               }
             }
           }
@@ -251,11 +254,65 @@
             </div>
        </section>
        <!-- latest protfoio section starts here -->
+   <!-- Unique part styles here -->
 
+   <!-- Unique part styles ends here -->
+    <!-- discussion part starts here -->
+  <section>
+    <div class="bg-bannerBg bg-no-repeat bg-cover bg-center mt-16">
+      <div class=" space-y-5">
+        <div class="text-center">
+         <button class="border bg-color-seven rounded-2xl md:ml-0 mt-20">
+           <i class="fa-solid fa-arrow-right
+           "></i><span class="pl-2 pr-2">Let's Connect</span></button>
+        </div>
+        <h4 class="md:text-4xl text-2xl font-extrabold text-center ">Let’s Discuss Next Project</h4>
+        <p class="opacity-80 font-semibold w-[90%] md:w-7/12 text-center mx-auto">Let's Discuss the Next Project: Collaborating to shape innovative ideas and turn them into actionable plans. Together, we'll chart the course for our next big success.</p>
+        </div>
+  <!-- input part style -->
+   <div class="md:w-9/12 w-11/12 mx-auto mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+   <input class="px-4 py-3 border-none outline-none bg-white rounded-3xl w-full" type="text" placeholder="First name*">
+   <input class="px-4 py-3 border-none outline-none bg-white rounded-3xl w-full" type="text" placeholder="Last name*">
+   <input class="px-4 py-3 border-none outline-none bg-white rounded-3xl w-full" type="text" placeholder="Phone Number*">
+   <input class="px-4 py-3 border-none outline-none bg-white rounded-3xl w-full" type="text" placeholder="Email Number*">
+   <div class="md:col-span-2">
+    <textarea rows="8" class="px-3 py-2 border-none outline-none bg-white rounded-3xl w-full" name="" id="" placeholder="Write your message here"></textarea>
+   </div>
+   <div class="md:col-span-2 mb-16">
+    <a class="btn w-full bg-color-primary rounded-3xl font-extrabold">
+      Send Mail<i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full text-amber-100 w-7 h-7
+      inline-flex justify-center items-center"></i></a>
+   </div>
+
+   </div>
+  
+    </div>
+  </section>
+    <!-- discussion part starts ends here -->
 
   </main>
-  <footer>
-
+  <footer class="w-full bg-black">
+     <!-- footer part styles here -->
+     <div class="space-y-5">
+      <div class="text-center pt-16">
+        <a class="text-2xl font-bold">
+          <i class="fa-solid fa-arrow-right -rotate-45 bg-color-primary rounded-full text-black w-7 h-7
+          inline-flex justify-center items-center"></i><span class="pl-2 text-white">Rinterio</span></a>
+      </div>
+      <p class="text-gray-400  w-[90%] md:w-7/12 text-center mx-auto">Let's Collaborating with new dynamic design to shape innovative ideas and turn them into actionable plans. Together, we'll chart the course for our next big success.</p>
+      </div>
+      <div class="md:mt-10 mt-6 md:w-9/12 mx-auto text-gray-400 flex md:flex-row flex-col md:justify-between md:space-y-0 space-y-6 items-center  ">
+       <a href="">Home</a>
+       <a href="">Services</a>
+       <a href="">Portfolio</a>
+       <a href="">Contact Us</a>
+      </div>
+      <div class="md:mt-10 mt-6 text-center pb-6">
+        <a class="btn bg-color-primary rounded-3xl font-extrabold w-11/12 md:w-44">
+          Book Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full text-amber-100 w-7 h-7
+          inline-flex justify-center items-center"></i></a>
+      </div>
+      <!-- footer parts styles ends here -->
   </footer>
 </body>
 </html>
